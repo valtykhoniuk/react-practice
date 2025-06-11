@@ -1,14 +1,20 @@
 import Accordion from "./components/Accordion";
 import Modal from "./components/Modal";
+import Slider from "./components/Slider";
 import Tabs from "./components/Tabs";
 
 function App() {
   return (
-    <div className="p-4">
-      <h1 className="text-2xl mb-4">Components Playground</h1>
+    <div className="m-4">
+      <h1 className="text-2xl">Components Playground</h1>
+      <h1 className="mt-6 mb-2 text-xl font-bold">Modal</h1>
       <Modal />
+      <h1 className="mt-6 mb-2 text-xl font-bold">Tabs</h1>
       <Tabs />
+      <h1 className="mt-6 mb-2 text-xl font-bold">Accordion</h1>
       <Accordion />
+      <h1 className="mt-6 mb-2 text-xl font-bold">Slider</h1>
+      <Slider />
     </div>
   );
 }

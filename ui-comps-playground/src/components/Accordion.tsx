@@ -8,7 +8,7 @@ const Accordion = () => {
   ];
 
   return (
-    <div className="flex gap-2 mt-2">
+    <div className="flex gap-2">
       {items.map((item, i) => (
         <div key={i}>
           <button

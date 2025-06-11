@@ -7,7 +7,7 @@ const Tabs = () => {
 
   return (
     <>
-      <div className="flex gap-2 mt-3">
+      <div className="flex gap-2">
         {tabs.map((tab, i) => (
           <button
             className="border p-2"
