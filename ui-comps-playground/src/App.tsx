@@ -1,4 +1,5 @@
 import Accordion from "./components/Accordion";
+import Dropdown from "./components/Dropdown";
 import FormValidation from "./components/FormValidation";
 import Modal from "./components/Modal";
 import SearchList from "./components/SearchList";
@@ -21,6 +22,8 @@ function App() {
       <FormValidation />
       <h1 className="mt-6 mb-2 text-xl font-bold">Search List</h1>
       <SearchList />
+      <h1 className="mt-6 mb-2 text-xl font-bold">Dropdown</h1>
+      <Dropdown />
     </div>
   );
 }
