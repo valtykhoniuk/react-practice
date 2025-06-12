@@ -1,4 +1,5 @@
 import Accordion from "./components/Accordion";
+import FormValidation from "./components/FormValidation";
 import Modal from "./components/Modal";
 import Slider from "./components/Slider";
 import Tabs from "./components/Tabs";
@@ -15,6 +16,8 @@ function App() {
       <Accordion />
       <h1 className="mt-6 mb-2 text-xl font-bold">Slider</h1>
       <Slider />
+      <h1 className="mt-6 mb-2 text-xl font-bold">Form Validation</h1>
+      <FormValidation />
     </div>
   );
 }
